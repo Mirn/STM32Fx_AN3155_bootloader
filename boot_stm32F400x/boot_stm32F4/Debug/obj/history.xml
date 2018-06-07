@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F405RG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IE:\bootloader\src\Boot_F4\bootloader -IE:\bootloader\src -IE:\bootloader\src\Boot_F4\cmsis_lib -IE:\bootloader\src\Boot_F4 -IE:\bootloader\src\Boot_F4\cmsis_lib\include -IE:\bootloader\src\Boot_F4\cmsis_boot -IE:\bootloader\src\Boot_F4\cmsis">
+      <target file="bootloader.o" lastModified="14246f301fa">
+         <source file="..\..\..\bootloader\bootloader.c" lastModified="142313118a7"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14246f2ffeb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="141ef4fae19"/>
+      </target>
+      <target file="stm32f4xx_flash.o" lastModified="14246f30097">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="141ef4fcd56"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14246f300f2">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1420e50c6e5"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14246f2fe10">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="141ef4f90d1"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14246f2fdd3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="141ef4fc877"/>
+      </target>
+      <target file="rnd_gen.o" lastModified="14246f2ff69">
+         <source file="..\..\..\bootloader\rnd_gen.c" lastModified="14213e4f9dd"/>
+      </target>
+      <target file="main.o" lastModified="14246f2fe66">
+         <source file="..\..\..\main.c" lastModified="14209a462d2"/>
+      </target>
+      <target file="usart_mini.o" lastModified="14246f302c3">
+         <source file="..\..\..\bootloader\usart_mini.c" lastModified="14213e5af0e"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14246f2ff34">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1420e738118"/>
+      </target>
+      <target file="misc.o" lastModified="14246f3024e">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="141ef5283a9"/>
+      </target>
+   </processor>
+</history>

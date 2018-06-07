@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.5.2 -mcpu=cortex-m4 -mthumb -Wl -nostartfiles -g -Map=boot_stm32F4.map -O3 --gc-sections -LE:/bootloader/src/Boot_F4 -TE:/bootloader/src/Boot_F4/arm-gcc-link.ld -g">
+      <target file="boot_stm32F4.elf" lastModified="14246f304ac">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="14246f2fdd3"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14246f2fe10"/>
+         <source file="..\obj\main.o" lastModified="14246f2fe66"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14246f2ff34"/>
+         <source file="..\obj\rnd_gen.o" lastModified="14246f2ff69"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14246f2ffeb"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="14246f30097"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14246f300f2"/>
+         <source file="..\obj\bootloader.o" lastModified="14246f301fa"/>
+         <source file="..\obj\misc.o" lastModified="14246f3024e"/>
+         <source file="..\obj\usart_mini.o" lastModified="14246f302c3"/>
+      </target>
+   </processor>
+</history>
